@@ -1,0 +1,14 @@
+defmodule NewHabit do
+  @moduledoc """
+  NewHabit keeps the contexts that define your domain
+  and business logic.
+
+  Contexts are also responsible for managing your data, regardless
+  if it comes from the database, an external API or others.
+  """
+  def ensure_customer(_customer) do
+  end
+
+  def save_progress(_habit_nr) do
+  end
+end
